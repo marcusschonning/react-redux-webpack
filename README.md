@@ -52,7 +52,7 @@ class ComponentFetcher extends React.Component {
 const ComponentContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(ComponentFetcher)
+)(ComponentFetcher) //Put whichever element you want the props.
 
 export default ComponentContainer
 
