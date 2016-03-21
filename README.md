@@ -3,9 +3,9 @@ Boilerplate with redux, react and webpack
 
 ### Commands
 
-(`sudo `)`npm install` to get dependencies.
-`webpack` to build development.
-`webpack -w` to watch for changes and build develop.
+(`sudo `)`npm install` to get dependencies.<br>
+`webpack` to build development.<br>
+`webpack -w` to watch for changes and build develop.<br>
 `webpack -p` to build production
 
 ### Example container
