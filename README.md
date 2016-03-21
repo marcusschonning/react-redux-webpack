@@ -18,23 +18,23 @@ import { connect } from 'react-redux';
 import { actionFunctionName } from '../actions';
 import ComponentName from '../components/ComponentName';
 
-const getVisibleTodos = (todos, filter) => {
+const ComponentContainer = () => {
 
-const mapStateToProps = (state) => {
-  return {
-    state: state
-  }
-}
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    onItemClick: (id) => {
-      dispatch(actionName(id));
-    },
-    fetchAll(): () => {
-		dispatch(anotherAction());
+	const mapStateToProps = (state) => {
+		return {
+			state: state
+		}
 	}
-  }
+
+	const mapDispatchToProps = (dispatch) => {
+		return {
+			onItemClick: (id) => {
+			dispatch(actionName(id));
+		},
+		fetchAll(): () => {
+			dispatch(anotherAction());
+		}
+	}
 }
 
 
